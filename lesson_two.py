@@ -7,4 +7,3 @@ gpa = 4.0
 is_student = True 
 
 print(type(name)) # this outputs the what data type is each variable. 
-print(f"{age}")
