@@ -8,5 +8,10 @@ is_student = True
 
 print(type(name)) # this outputs the what data type is each variable. 
 
+#converting float to int
 gpa = int(gpa)
 print(gpa)
+
+#int to float
+age = float(age)
+print(age)
