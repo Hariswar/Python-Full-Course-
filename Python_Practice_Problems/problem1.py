@@ -5,4 +5,4 @@ second_person = int(input(f"What is your age? "))
 thirld_person = int(input(f"What is your age? "))
 
 oldest_person = max(first_person, second_person, thirld_person) #max operator 
-print(f"The oldest person is {oldest_person}")
+print(f"The oldest person among the three people is {oldest_person}")
