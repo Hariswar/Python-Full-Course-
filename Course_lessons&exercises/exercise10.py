@@ -11,3 +11,7 @@
 # := = place sign to leftmost position
 # : = insert a space before positive numbers 
 # :, = comma separator
+
+price1 = 3.14159
+price2 = -987.65
+price3 = 12.34
