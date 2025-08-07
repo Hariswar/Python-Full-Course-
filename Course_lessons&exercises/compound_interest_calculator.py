@@ -21,3 +21,17 @@ while time <= 0:
   
 total = principle * pow((1 + rate / 100), time)
 print(f"Balance after {time} year/s: ${total:.2f}")
+
+# Different way to write this code: 
+
+principle1 = 0
+rate1 = 0
+time1 = 0
+
+while True: 
+  principle1 = float(input("Enter the principal amount: "))
+  if principle1 > 0:
+    print("Principle can't be less than zero")
+  else:
+    break 
+
