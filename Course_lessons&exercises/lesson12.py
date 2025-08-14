@@ -12,3 +12,8 @@ for x in reversed(range(1,11)):
 print("Happy new year!")
 # Output would be 10, 9, 8, 7, 6, 5, 4, 3, 2, 1 Happy new year!
 
+# Example 3:
+for x in range(1, 11, 2): # 1 - 10, increment by 2
+  print(x)
+# Output would be 1, 3, 5, 7, 9
+
