@@ -17,3 +17,10 @@ for x in range(1, 11, 2): # 1 - 10, increment by 2
   print(x)
 # Output would be 1, 3, 5, 7, 9
 
+#Example 4:
+credit_card = "1234-5678-9012-3456"
+
+for x in credit_card:
+  print(x)
+# Output would be 1, 2, 3, 4, -, 5, 6, 7, 8, -, 9, 0, 1, 2, -, 3, 4, 5, 6
+
