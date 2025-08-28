@@ -24,3 +24,18 @@ for x in credit_card:
   print(x)
 # Output would be 1, 2, 3, 4, -, 5, 6, 7, 8, -, 9, 0, 1, 2, -, 3, 4, 5, 6
 
+# Example 5:
+for x in range(1, 21):
+  if x == 13:
+    continue
+  else:
+    print(x)
+# Output would be 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 15, 16, 17, 18, 19, 20
+
+# Example 6:
+for x in range(1, 21):
+  if x == 13:
+    break
+  else:
+    print(x)
+# Output would be 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 
